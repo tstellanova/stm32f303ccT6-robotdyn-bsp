@@ -6,7 +6,7 @@ Embedded rust board support package (BSP) crate for the
 
 ## Status
 
-Tested with the board
+WIP , testing with the actual board
 
 
 
