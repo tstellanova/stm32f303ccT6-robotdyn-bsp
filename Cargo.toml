@@ -1,0 +1,14 @@
+[package]
+name = "stm32f303cct6-robotdyn-bsp"
+version = "0.1.0"
+authors = ["Todd Stellanova <tstellanova@users.noreply.github.com>"]
+edition = "2018"
+description = "Board support crate for the robotdyn m4 mini stm32f303CCT6 development board"
+license = "BSD-3-Clause"
+repository ="https://github.com/tstellanova/stm32f303ccT6-robotdyn-bsp"
+
+[dependencies]
+cortex-m = "^0.6.0"
+embedded-hal = "0.2.3"
+stm32f3 = {version = "0.10.0", features = ["stm32f303"] }
+stm32f3xx-hal =  {version = "0.4.3", features = ["stm32f303", "rt"] }

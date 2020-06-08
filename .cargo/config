@@ -1,0 +1,7 @@
+
+rustflags = [
+  "-C", "link-arg=-Tlink.x", # LDD
+]
+
+[build]
+target = "thumbv7em-none-eabihf" # Cortex-M4F and Cortex-M7F (with FPU)
