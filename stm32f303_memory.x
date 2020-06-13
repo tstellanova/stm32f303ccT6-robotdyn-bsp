@@ -1,4 +1,4 @@
-/* Memory layout for stm32f303 */
+/* Memory layout for stm32f303cct6 */
 
 MEMORY
 {
@@ -12,7 +12,7 @@ MEMORY
 
 /* The location of the stack can be overridden using the
    `_stack_start` symbol.  Place the stack at the end of RAM */
-_stack_start = ORIGIN(RAM) + LENGTH(RAM);
+_stack_start = ORIGIN(CCRAM) + LENGTH(CCRAM);
 
 /* The location of the .text section can be overridden using the
    `_stext` symbol.  By default it will place after .vector_table */

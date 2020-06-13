@@ -1,6 +1,6 @@
 [package]
 name = "stm32f303cct6-robotdyn-bsp"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Todd Stellanova <tstellanova@users.noreply.github.com>"]
 edition = "2018"
 description = "Board support crate for the robotdyn m4 mini stm32f303CCT6 development board"
